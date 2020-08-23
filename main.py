@@ -44,7 +44,7 @@ if __name__ == "__main__":
         '\n[\u001b[31mGIF\u001b[37m]    Bruteforce Images With A GIF Extension',
         '\n[\u001b[31mCUSTOM\u001b[37m] Bruteforce Images With A CUSTOM Extension\n'
     )
-    Img_Type = input('\u001b[31m>\u001b[37m Image Type\u001b[32m:\u001b[37m ')
+    Img_Type = input('\u001b[31m>\u001b[37m Image Type\u001b[31m:\u001b[37m ')
     if "PNG" in Img_Type:
         Type = 'png'
     elif "JPEG" in Img_Type:   
